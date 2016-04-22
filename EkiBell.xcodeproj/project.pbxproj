@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0E19991CC9A59800FA196E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19981CC9A59800FA196E /* AppDelegate.swift */; };
+		EB0E199B1CC9A59800FA196E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E199A1CC9A59800FA196E /* FirstViewController.swift */; };
+		EB0E199D1CC9A59900FA196E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E199C1CC9A59900FA196E /* SecondViewController.swift */; };
+		EB0E19A01CC9A59A00FA196E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0E199E1CC9A59A00FA196E /* Main.storyboard */; };
+		EB0E19A21CC9A59B00FA196E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0E19A11CC9A59B00FA196E /* Assets.xcassets */; };
+		EB0E19A51CC9A59B00FA196E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0E19A31CC9A59B00FA196E /* LaunchScreen.storyboard */; };
+		EB0E19B01CC9A59B00FA196E /* EkiBellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19AF1CC9A59B00FA196E /* EkiBellTests.swift */; };
+		EB0E19BB1CC9A59C00FA196E /* EkiBellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19BA1CC9A59C00FA196E /* EkiBellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB0E19AC1CC9A59B00FA196E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0E198D1CC9A59700FA196E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0E19941CC9A59800FA196E;
+			remoteInfo = EkiBell;
+		};
+		EB0E19B71CC9A59B00FA196E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB0E198D1CC9A59700FA196E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB0E19941CC9A59800FA196E;
+			remoteInfo = EkiBell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0E19951CC9A59800FA196E /* EkiBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkiBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0E19981CC9A59800FA196E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB0E199A1CC9A59800FA196E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EB0E199C1CC9A59900FA196E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EB0E199F1CC9A59A00FA196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB0E19A11CC9A59B00FA196E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB0E19A41CC9A59B00FA196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB0E19A61CC9A59B00FA196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0E19AB1CC9A59B00FA196E /* EkiBellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkiBellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0E19AF1CC9A59B00FA196E /* EkiBellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkiBellTests.swift; sourceTree = "<group>"; };
+		EB0E19B11CC9A59B00FA196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0E19B61CC9A59B00FA196E /* EkiBellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkiBellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0E19BA1CC9A59C00FA196E /* EkiBellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkiBellUITests.swift; sourceTree = "<group>"; };
+		EB0E19BC1CC9A59C00FA196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB0E19921CC9A59800FA196E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E19A81CC9A59B00FA196E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E19B31CC9A59B00FA196E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0E198C1CC9A59700FA196E = {
+			isa = PBXGroup;
+			children = (
+				EB0E19971CC9A59800FA196E /* EkiBell */,
+				EB0E19AE1CC9A59B00FA196E /* EkiBellTests */,
+				EB0E19B91CC9A59B00FA196E /* EkiBellUITests */,
+				EB0E19961CC9A59800FA196E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB0E19961CC9A59800FA196E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E19951CC9A59800FA196E /* EkiBell.app */,
+				EB0E19AB1CC9A59B00FA196E /* EkiBellTests.xctest */,
+				EB0E19B61CC9A59B00FA196E /* EkiBellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB0E19971CC9A59800FA196E /* EkiBell */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E19981CC9A59800FA196E /* AppDelegate.swift */,
+				EB0E199A1CC9A59800FA196E /* FirstViewController.swift */,
+				EB0E199C1CC9A59900FA196E /* SecondViewController.swift */,
+				EB0E199E1CC9A59A00FA196E /* Main.storyboard */,
+				EB0E19A11CC9A59B00FA196E /* Assets.xcassets */,
+				EB0E19A31CC9A59B00FA196E /* LaunchScreen.storyboard */,
+				EB0E19A61CC9A59B00FA196E /* Info.plist */,
+			);
+			path = EkiBell;
+			sourceTree = "<group>";
+		};
+		EB0E19AE1CC9A59B00FA196E /* EkiBellTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E19AF1CC9A59B00FA196E /* EkiBellTests.swift */,
+				EB0E19B11CC9A59B00FA196E /* Info.plist */,
+			);
+			path = EkiBellTests;
+			sourceTree = "<group>";
+		};
+		EB0E19B91CC9A59B00FA196E /* EkiBellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E19BA1CC9A59C00FA196E /* EkiBellUITests.swift */,
+				EB0E19BC1CC9A59C00FA196E /* Info.plist */,
+			);
+			path = EkiBellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB0E19941CC9A59800FA196E /* EkiBell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0E19BF1CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBell" */;
+			buildPhases = (
+				EB0E19911CC9A59800FA196E /* Sources */,
+				EB0E19921CC9A59800FA196E /* Frameworks */,
+				EB0E19931CC9A59800FA196E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkiBell;
+			productName = EkiBell;
+			productReference = EB0E19951CC9A59800FA196E /* EkiBell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB0E19AA1CC9A59B00FA196E /* EkiBellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0E19C21CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBellTests" */;
+			buildPhases = (
+				EB0E19A71CC9A59B00FA196E /* Sources */,
+				EB0E19A81CC9A59B00FA196E /* Frameworks */,
+				EB0E19A91CC9A59B00FA196E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0E19AD1CC9A59B00FA196E /* PBXTargetDependency */,
+			);
+			name = EkiBellTests;
+			productName = EkiBellTests;
+			productReference = EB0E19AB1CC9A59B00FA196E /* EkiBellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB0E19B51CC9A59B00FA196E /* EkiBellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB0E19C51CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBellUITests" */;
+			buildPhases = (
+				EB0E19B21CC9A59B00FA196E /* Sources */,
+				EB0E19B31CC9A59B00FA196E /* Frameworks */,
+				EB0E19B41CC9A59B00FA196E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB0E19B81CC9A59B00FA196E /* PBXTargetDependency */,
+			);
+			name = EkiBellUITests;
+			productName = EkiBellUITests;
+			productReference = EB0E19B61CC9A59B00FA196E /* EkiBellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB0E198D1CC9A59700FA196E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Basuke Suzuki";
+				TargetAttributes = {
+					EB0E19941CC9A59800FA196E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EB0E19AA1CC9A59B00FA196E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB0E19941CC9A59800FA196E;
+					};
+					EB0E19B51CC9A59B00FA196E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB0E19941CC9A59800FA196E;
+					};
+				};
+			};
+			buildConfigurationList = EB0E19901CC9A59700FA196E /* Build configuration list for PBXProject "EkiBell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB0E198C1CC9A59700FA196E;
+			productRefGroup = EB0E19961CC9A59800FA196E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB0E19941CC9A59800FA196E /* EkiBell */,
+				EB0E19AA1CC9A59B00FA196E /* EkiBellTests */,
+				EB0E19B51CC9A59B00FA196E /* EkiBellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB0E19931CC9A59800FA196E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E19A51CC9A59B00FA196E /* LaunchScreen.storyboard in Resources */,
+				EB0E19A21CC9A59B00FA196E /* Assets.xcassets in Resources */,
+				EB0E19A01CC9A59A00FA196E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E19A91CC9A59B00FA196E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E19B41CC9A59B00FA196E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB0E19911CC9A59800FA196E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E199D1CC9A59900FA196E /* SecondViewController.swift in Sources */,
+				EB0E19991CC9A59800FA196E /* AppDelegate.swift in Sources */,
+				EB0E199B1CC9A59800FA196E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E19A71CC9A59B00FA196E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E19B01CC9A59B00FA196E /* EkiBellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0E19B21CC9A59B00FA196E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0E19BB1CC9A59C00FA196E /* EkiBellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB0E19AD1CC9A59B00FA196E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0E19941CC9A59800FA196E /* EkiBell */;
+			targetProxy = EB0E19AC1CC9A59B00FA196E /* PBXContainerItemProxy */;
+		};
+		EB0E19B81CC9A59B00FA196E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB0E19941CC9A59800FA196E /* EkiBell */;
+			targetProxy = EB0E19B71CC9A59B00FA196E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB0E199E1CC9A59A00FA196E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0E199F1CC9A59A00FA196E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB0E19A31CC9A59B00FA196E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB0E19A41CC9A59B00FA196E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB0E19BD1CC9A59C00FA196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB0E19BE1CC9A59C00FA196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB0E19C01CC9A59C00FA196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EkiBell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB0E19C11CC9A59C00FA196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EkiBell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB0E19C31CC9A59C00FA196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EkiBellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkiBell.app/EkiBell";
+			};
+			name = Debug;
+		};
+		EB0E19C41CC9A59C00FA196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EkiBellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkiBell.app/EkiBell";
+			};
+			name = Release;
+		};
+		EB0E19C61CC9A59C00FA196E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EkiBellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EkiBell;
+			};
+			name = Debug;
+		};
+		EB0E19C71CC9A59C00FA196E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EkiBellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EkiBell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB0E19901CC9A59700FA196E /* Build configuration list for PBXProject "EkiBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0E19BD1CC9A59C00FA196E /* Debug */,
+				EB0E19BE1CC9A59C00FA196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB0E19BF1CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0E19C01CC9A59C00FA196E /* Debug */,
+				EB0E19C11CC9A59C00FA196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB0E19C21CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0E19C31CC9A59C00FA196E /* Debug */,
+				EB0E19C41CC9A59C00FA196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB0E19C51CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0E19C61CC9A59C00FA196E /* Debug */,
+				EB0E19C71CC9A59C00FA196E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB0E198D1CC9A59700FA196E /* Project object */;
+}
