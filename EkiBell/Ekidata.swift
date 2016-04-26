@@ -37,7 +37,7 @@ struct Station {
 	var name: String
 	var lineId: Int
 	var latitude: Double
-	var Longitude: Double
+	var longitude: Double
 	var groupId: Int
 }
 
@@ -62,7 +62,7 @@ class Ekidata {
 								  name: row[NAME],
 								  lineId: row[LINE_ID],
 								  latitude: row[LATITUDE],
-								  Longitude: row[LONGITUDE],
+								  longitude: row[LONGITUDE],
 								  groupId: row[GROUP_ID])
 			result.append(station)
 		}

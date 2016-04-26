@@ -28,8 +28,14 @@ class NearbyViewController: UITableViewController {
 		return stations.count
 	}
 
-//	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-//		<#code#>
-//	}
+	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+		let cell = tableView.dequeueReusableCellWithIdentifier("DefaultCell", forIndexPath: indexPath)
+		let station = stations[indexPath.row]
+
+		cell.textLabel?.text = station.name
+		cell.detailTextLabel?.text = "\(station.latitude), \(station.longitude)"
+
+		return cell
+	}
 }
 
