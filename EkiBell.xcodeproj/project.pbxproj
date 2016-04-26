@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		EB0E19991CC9A59800FA196E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19981CC9A59800FA196E /* AppDelegate.swift */; };
-		EB0E199B1CC9A59800FA196E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E199A1CC9A59800FA196E /* FirstViewController.swift */; };
-		EB0E199D1CC9A59900FA196E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E199C1CC9A59900FA196E /* SecondViewController.swift */; };
+		EB0E199B1CC9A59800FA196E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E199A1CC9A59800FA196E /* MapViewController.swift */; };
+		EB0E199D1CC9A59900FA196E /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E199C1CC9A59900FA196E /* NearbyViewController.swift */; };
 		EB0E19A01CC9A59A00FA196E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0E199E1CC9A59A00FA196E /* Main.storyboard */; };
 		EB0E19A21CC9A59B00FA196E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0E19A11CC9A59B00FA196E /* Assets.xcassets */; };
 		EB0E19A51CC9A59B00FA196E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0E19A31CC9A59B00FA196E /* LaunchScreen.storyboard */; };
 		EB0E19B01CC9A59B00FA196E /* EkiBellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19AF1CC9A59B00FA196E /* EkiBellTests.swift */; };
 		EB0E19BB1CC9A59C00FA196E /* EkiBellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19BA1CC9A59C00FA196E /* EkiBellUITests.swift */; };
+		EB0E19C91CC9A69400FA196E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0E19C81CC9A69400FA196E /* MapKit.framework */; };
+		EBAE63C91CCD13DB005CF6F8 /* ekidata.db in Resources */ = {isa = PBXBuildFile; fileRef = EBAE63C81CCD13DB005CF6F8 /* ekidata.db */; };
+		EBAE63CA1CCD13DB005CF6F8 /* ekidata.db in Resources */ = {isa = PBXBuildFile; fileRef = EBAE63C81CCD13DB005CF6F8 /* ekidata.db */; };
+		EBAE63CB1CCD13DB005CF6F8 /* ekidata.db in Resources */ = {isa = PBXBuildFile; fileRef = EBAE63C81CCD13DB005CF6F8 /* ekidata.db */; };
+		EBAE63CD1CCD159E005CF6F8 /* Ekidata.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */; };
+		EBAE63CE1CCD159E005CF6F8 /* Ekidata.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */; };
+		EBAE63CF1CCD159E005CF6F8 /* Ekidata.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */; };
+		EBAE63D01CCD1CAA005CF6F8 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2D23E21CC9AD2E00783E67 /* SQLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +45,8 @@
 /* Begin PBXFileReference section */
 		EB0E19951CC9A59800FA196E /* EkiBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkiBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0E19981CC9A59800FA196E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB0E199A1CC9A59800FA196E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		EB0E199C1CC9A59900FA196E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		EB0E199A1CC9A59800FA196E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EB0E199C1CC9A59900FA196E /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
 		EB0E199F1CC9A59A00FA196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB0E19A11CC9A59B00FA196E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0E19A41CC9A59B00FA196E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		EB0E19B61CC9A59B00FA196E /* EkiBellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkiBellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0E19BA1CC9A59C00FA196E /* EkiBellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EkiBellUITests.swift; sourceTree = "<group>"; };
 		EB0E19BC1CC9A59C00FA196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0E19C81CC9A69400FA196E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EB2D23E21CC9AD2E00783E67 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+		EBAE63C81CCD13DB005CF6F8 /* ekidata.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = ekidata.db; path = ekidata/ekidata.db; sourceTree = "<group>"; };
+		EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ekidata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0E19C91CC9A69400FA196E /* MapKit.framework in Frameworks */,
+				EBAE63D01CCD1CAA005CF6F8 /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +93,9 @@
 		EB0E198C1CC9A59700FA196E = {
 			isa = PBXGroup;
 			children = (
+				EB2D23E21CC9AD2E00783E67 /* SQLite.framework */,
+				EB0E19C81CC9A69400FA196E /* MapKit.framework */,
+				EBAE63C81CCD13DB005CF6F8 /* ekidata.db */,
 				EB0E19971CC9A59800FA196E /* EkiBell */,
 				EB0E19AE1CC9A59B00FA196E /* EkiBellTests */,
 				EB0E19B91CC9A59B00FA196E /* EkiBellUITests */,
@@ -100,9 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				EB0E19981CC9A59800FA196E /* AppDelegate.swift */,
-				EB0E199A1CC9A59800FA196E /* FirstViewController.swift */,
-				EB0E199C1CC9A59900FA196E /* SecondViewController.swift */,
+				EB0E199A1CC9A59800FA196E /* MapViewController.swift */,
+				EB0E199C1CC9A59900FA196E /* NearbyViewController.swift */,
 				EB0E199E1CC9A59A00FA196E /* Main.storyboard */,
+				EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */,
 				EB0E19A11CC9A59B00FA196E /* Assets.xcassets */,
 				EB0E19A31CC9A59B00FA196E /* LaunchScreen.storyboard */,
 				EB0E19A61CC9A59B00FA196E /* Info.plist */,
@@ -138,6 +156,7 @@
 				EB0E19911CC9A59800FA196E /* Sources */,
 				EB0E19921CC9A59800FA196E /* Frameworks */,
 				EB0E19931CC9A59800FA196E /* Resources */,
+				EBAE63D11CCD1CB4005CF6F8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -196,6 +215,11 @@
 				TargetAttributes = {
 					EB0E19941CC9A59800FA196E = {
 						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					EB0E19AA1CC9A59B00FA196E = {
 						CreatedOnToolsVersion = 7.3;
@@ -232,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBAE63C91CCD13DB005CF6F8 /* ekidata.db in Resources */,
 				EB0E19A51CC9A59B00FA196E /* LaunchScreen.storyboard in Resources */,
 				EB0E19A21CC9A59B00FA196E /* Assets.xcassets in Resources */,
 				EB0E19A01CC9A59A00FA196E /* Main.storyboard in Resources */,
@@ -242,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBAE63CA1CCD13DB005CF6F8 /* ekidata.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,19 +275,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBAE63CB1CCD13DB005CF6F8 /* ekidata.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EBAE63D11CCD1CB4005CF6F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB0E19911CC9A59800FA196E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0E199D1CC9A59900FA196E /* SecondViewController.swift in Sources */,
+				EB0E199D1CC9A59900FA196E /* NearbyViewController.swift in Sources */,
 				EB0E19991CC9A59800FA196E /* AppDelegate.swift in Sources */,
-				EB0E199B1CC9A59800FA196E /* FirstViewController.swift in Sources */,
+				EB0E199B1CC9A59800FA196E /* MapViewController.swift in Sources */,
+				EBAE63CD1CCD159E005CF6F8 /* Ekidata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0E19B01CC9A59B00FA196E /* EkiBellTests.swift in Sources */,
+				EBAE63CE1CCD159E005CF6F8 /* Ekidata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0E19BB1CC9A59C00FA196E /* EkiBellUITests.swift in Sources */,
+				EBAE63CF1CCD159E005CF6F8 /* Ekidata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +450,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EkiBell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBell;
@@ -414,6 +466,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EkiBell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBell;
@@ -486,6 +543,7 @@
 				EB0E19C11CC9A59C00FA196E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB0E19C21CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBellTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +552,7 @@
 				EB0E19C41CC9A59C00FA196E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB0E19C51CC9A59C00FA196E /* Build configuration list for PBXNativeTarget "EkiBellUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +561,7 @@
 				EB0E19C71CC9A59C00FA196E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
