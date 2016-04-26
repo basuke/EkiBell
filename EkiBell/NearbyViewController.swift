@@ -28,8 +28,8 @@ class NearbyViewController: UITableViewController {
 		return stations.count
 	}
 
-	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-		<#code#>
-	}
+//	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//		<#code#>
+//	}
 }
 

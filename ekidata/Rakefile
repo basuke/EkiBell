@@ -1,8 +1,0 @@
-require 'rake/clean'
-CLEAN.include %w(*.csv)
-
-task :default => []
-
-task :download => [] do
-	sh 'ruby download.rb'
-end
