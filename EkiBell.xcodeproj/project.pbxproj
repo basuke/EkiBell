@@ -16,6 +16,14 @@
 		EB0E19B01CC9A59B00FA196E /* EkiBellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19AF1CC9A59B00FA196E /* EkiBellTests.swift */; };
 		EB0E19BB1CC9A59C00FA196E /* EkiBellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0E19BA1CC9A59C00FA196E /* EkiBellUITests.swift */; };
 		EB0E19C91CC9A69400FA196E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0E19C81CC9A69400FA196E /* MapKit.framework */; };
+		EB84893B1CD79A8500FC99A8 /* StationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB84893A1CD79A8500FC99A8 /* StationCell.xib */; };
+		EB84893D1CD8F90B00FC99A8 /* LineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB84893C1CD8F90B00FC99A8 /* LineCell.xib */; };
+		EB84893F1CD8F97B00FC99A8 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB84893E1CD8F97B00FC99A8 /* Shortcut.swift */; };
+		EB8E8F021CD4F9D10077C5F3 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E8F011CD4F9D10077C5F3 /* FavoriteViewController.swift */; };
+		EB8E8F041CD4F9E40077C5F3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E8F031CD4F9E40077C5F3 /* SearchViewController.swift */; };
+		EB8E8F061CD4F9F90077C5F3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E8F051CD4F9F90077C5F3 /* SettingsViewController.swift */; };
+		EB8E8F081CD4FA080077C5F3 /* StationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E8F071CD4FA080077C5F3 /* StationViewController.swift */; };
+		EB8E8F0A1CD4FA1B0077C5F3 /* LineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E8F091CD4FA1B0077C5F3 /* LineViewController.swift */; };
 		EBAE63C91CCD13DB005CF6F8 /* ekidata.db in Resources */ = {isa = PBXBuildFile; fileRef = EBAE63C81CCD13DB005CF6F8 /* ekidata.db */; };
 		EBAE63CA1CCD13DB005CF6F8 /* ekidata.db in Resources */ = {isa = PBXBuildFile; fileRef = EBAE63C81CCD13DB005CF6F8 /* ekidata.db */; };
 		EBAE63CB1CCD13DB005CF6F8 /* ekidata.db in Resources */ = {isa = PBXBuildFile; fileRef = EBAE63C81CCD13DB005CF6F8 /* ekidata.db */; };
@@ -23,6 +31,9 @@
 		EBAE63CE1CCD159E005CF6F8 /* Ekidata.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */; };
 		EBAE63CF1CCD159E005CF6F8 /* Ekidata.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */; };
 		EBAE63D01CCD1CAA005CF6F8 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2D23E21CC9AD2E00783E67 /* SQLite.framework */; };
+		EBAE63D31CD0990A005CF6F8 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63D21CD0990A005CF6F8 /* Threading.swift */; };
+		EBAE63D41CD0990A005CF6F8 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63D21CD0990A005CF6F8 /* Threading.swift */; };
+		EBAE63D51CD0990A005CF6F8 /* Threading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAE63D21CD0990A005CF6F8 /* Threading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +70,17 @@
 		EB0E19BC1CC9A59C00FA196E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB0E19C81CC9A69400FA196E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		EB2D23E21CC9AD2E00783E67 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+		EB84893A1CD79A8500FC99A8 /* StationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StationCell.xib; sourceTree = "<group>"; };
+		EB84893C1CD8F90B00FC99A8 /* LineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineCell.xib; sourceTree = "<group>"; };
+		EB84893E1CD8F97B00FC99A8 /* Shortcut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		EB8E8F011CD4F9D10077C5F3 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		EB8E8F031CD4F9E40077C5F3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EB8E8F051CD4F9F90077C5F3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EB8E8F071CD4FA080077C5F3 /* StationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationViewController.swift; sourceTree = "<group>"; };
+		EB8E8F091CD4FA1B0077C5F3 /* LineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineViewController.swift; sourceTree = "<group>"; };
 		EBAE63C81CCD13DB005CF6F8 /* ekidata.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = ekidata.db; path = ekidata/ekidata.db; sourceTree = "<group>"; };
 		EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ekidata.swift; sourceTree = "<group>"; };
+		EBAE63D21CD0990A005CF6F8 /* Threading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +139,16 @@
 				EB0E19981CC9A59800FA196E /* AppDelegate.swift */,
 				EB0E199A1CC9A59800FA196E /* MapViewController.swift */,
 				EB0E199C1CC9A59900FA196E /* NearbyViewController.swift */,
+				EB8E8F011CD4F9D10077C5F3 /* FavoriteViewController.swift */,
+				EB8E8F031CD4F9E40077C5F3 /* SearchViewController.swift */,
+				EB8E8F051CD4F9F90077C5F3 /* SettingsViewController.swift */,
+				EB8E8F071CD4FA080077C5F3 /* StationViewController.swift */,
+				EB8E8F091CD4FA1B0077C5F3 /* LineViewController.swift */,
 				EB0E199E1CC9A59A00FA196E /* Main.storyboard */,
-				EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */,
+				EB84893A1CD79A8500FC99A8 /* StationCell.xib */,
+				EB84893C1CD8F90B00FC99A8 /* LineCell.xib */,
+				EB8E8F0B1CD4FA350077C5F3 /* Logic */,
+				EB8E8F0C1CD4FA400077C5F3 /* Utilities */,
 				EB0E19A11CC9A59B00FA196E /* Assets.xcassets */,
 				EB0E19A31CC9A59B00FA196E /* LaunchScreen.storyboard */,
 				EB0E19A61CC9A59B00FA196E /* Info.plist */,
@@ -144,6 +172,23 @@
 				EB0E19BC1CC9A59C00FA196E /* Info.plist */,
 			);
 			path = EkiBellUITests;
+			sourceTree = "<group>";
+		};
+		EB8E8F0B1CD4FA350077C5F3 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE63CC1CCD159E005CF6F8 /* Ekidata.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		EB8E8F0C1CD4FA400077C5F3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EBAE63D21CD0990A005CF6F8 /* Threading.swift */,
+				EB84893E1CD8F97B00FC99A8 /* Shortcut.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +260,7 @@
 				TargetAttributes = {
 					EB0E19941CC9A59800FA196E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = W79BP686ET;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -259,7 +305,9 @@
 				EBAE63C91CCD13DB005CF6F8 /* ekidata.db in Resources */,
 				EB0E19A51CC9A59B00FA196E /* LaunchScreen.storyboard in Resources */,
 				EB0E19A21CC9A59B00FA196E /* Assets.xcassets in Resources */,
+				EB84893D1CD8F90B00FC99A8 /* LineCell.xib in Resources */,
 				EB0E19A01CC9A59A00FA196E /* Main.storyboard in Resources */,
+				EB84893B1CD79A8500FC99A8 /* StationCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,10 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8E8F0A1CD4FA1B0077C5F3 /* LineViewController.swift in Sources */,
+				EB8E8F081CD4FA080077C5F3 /* StationViewController.swift in Sources */,
+				EBAE63D31CD0990A005CF6F8 /* Threading.swift in Sources */,
+				EB8E8F041CD4F9E40077C5F3 /* SearchViewController.swift in Sources */,
 				EB0E199D1CC9A59900FA196E /* NearbyViewController.swift in Sources */,
 				EB0E19991CC9A59800FA196E /* AppDelegate.swift in Sources */,
 				EB0E199B1CC9A59800FA196E /* MapViewController.swift in Sources */,
+				EB8E8F021CD4F9D10077C5F3 /* FavoriteViewController.swift in Sources */,
 				EBAE63CD1CCD159E005CF6F8 /* Ekidata.swift in Sources */,
+				EB84893F1CD8F97B00FC99A8 /* Shortcut.swift in Sources */,
+				EB8E8F061CD4F9F90077C5F3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0E19B01CC9A59B00FA196E /* EkiBellTests.swift in Sources */,
+				EBAE63D41CD0990A005CF6F8 /* Threading.swift in Sources */,
 				EBAE63CE1CCD159E005CF6F8 /* Ekidata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB0E19BB1CC9A59C00FA196E /* EkiBellUITests.swift in Sources */,
+				EBAE63D51CD0990A005CF6F8 /* Threading.swift in Sources */,
 				EBAE63CF1CCD159E005CF6F8 /* Ekidata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +507,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -459,6 +518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -466,6 +526,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -475,6 +537,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.basuke.ios.EkiBell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
