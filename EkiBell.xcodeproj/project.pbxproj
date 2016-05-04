@@ -262,6 +262,9 @@
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = W79BP686ET;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
 							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB84893F1CD8F97B00FC99A8 /* Shortcut.swift in Sources */,
 				EB8E8F0A1CD4FA1B0077C5F3 /* LineViewController.swift in Sources */,
 				EB8E8F081CD4FA080077C5F3 /* StationViewController.swift in Sources */,
 				EBAE63D31CD0990A005CF6F8 /* Threading.swift in Sources */,
@@ -360,7 +364,6 @@
 				EB0E199B1CC9A59800FA196E /* MapViewController.swift in Sources */,
 				EB8E8F021CD4F9D10077C5F3 /* FavoriteViewController.swift in Sources */,
 				EBAE63CD1CCD159E005CF6F8 /* Ekidata.swift in Sources */,
-				EB84893F1CD8F97B00FC99A8 /* Shortcut.swift in Sources */,
 				EB8E8F061CD4F9F90077C5F3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

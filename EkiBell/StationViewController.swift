@@ -25,7 +25,7 @@ class StationViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 		title = station.name
 
-		mapView.centerCoordinate = station.coordinate
+		mapView.region = MKCoordinateRegion(center: station.coordinate, radius:200)
 	}
 
 	override func didReceiveMemoryWarning() {

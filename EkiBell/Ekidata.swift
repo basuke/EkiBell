@@ -105,20 +105,12 @@ func allStations() -> [Station] {
 }
 
 func stationsCloseToLocation(center:CLLocationCoordinate2D, delta:CLLocationDistance, count:Int) -> [Station] {
-
-	let R:CLLocationDistance = 40076.5 * 1000
-	let R2 = R * cos(M_PI * 2 * center.latitude / 360.0)
-	let latitudeDelta:CLLocationDegrees = 360.0 * delta / R
-	let longitudeDelta:CLLocationDegrees = 360.0 * delta / (R2 > delta ? R2 : delta)
-	let south = center.latitude - latitudeDelta / 2
-	let north = center.latitude + latitudeDelta / 2
-	let west = center.longitude - longitudeDelta / 2
-	let east = center.longitude + longitudeDelta / 2
+	let region = MKCoordinateRegion(center:center, radius:delta / 2)
 
 	let stations = rowsToStations(Ekidata.shared.prepare(
 		STATIONS
-			.filter(south...north ~= LATITUDE)
-			.filter(west...east ~= LONGITUDE)
+			.filter(region.south...region.north ~= LATITUDE)
+			.filter(region.west...region.east ~= LONGITUDE)
 		))
 	return sortStations(stations, byDistanceFromLocation:CLLocation(latitude: center.latitude, longitude: center.longitude))
 }
